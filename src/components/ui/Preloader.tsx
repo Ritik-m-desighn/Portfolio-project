@@ -30,16 +30,16 @@ export default function Preloader() {
                     transition={{ duration: 0.5 }}
                     className="fixed inset-0 bg-black z-[10000] flex flex-col items-center justify-center font-mono"
                 >
-                    <div className="text-neon-cyan text-4xl font-bold mb-4 animate-pulse">
+                    <div className="text-neon-cyan text-2xl md:text-4xl font-bold mb-4 animate-pulse">
                         System Initializing...
                     </div>
-                    <div className="w-64 h-1 bg-gray-800 rounded-full overflow-hidden">
+                    <div className="w-[80vw] md:w-64 h-1 bg-gray-800 rounded-full overflow-hidden">
                         <motion.div
                             className="h-full bg-neon-blue shadow-[0_0_10px_#00f3ff]"
                             style={{ width: `${progress}%` }}
                         />
                     </div>
-                    <div className="mt-2 text-gray-400 text-sm">
+                    <div className="mt-2 text-gray-400 text-xs md:text-sm">
                         {progress}%
                     </div>
                 </motion.div>

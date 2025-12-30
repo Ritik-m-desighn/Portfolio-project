@@ -64,7 +64,7 @@ export default function Contact() {
                             <span className="text-cyan-400 font-mono tracking-widest uppercase text-sm">Get in touch</span>
                         </div>
 
-                        <h2 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
+                        <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-8 leading-tight">
                             Let&apos;s <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Contact</span>
                         </h2>
 
@@ -109,7 +109,7 @@ export default function Contact() {
                     >
                         <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-[2.5rem] blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
 
-                        <div className="relative bg-[#0a0a0a]/80 backdrop-blur-2xl p-8 md:p-12 rounded-[2.5rem] border border-white/10 shadow-2xl">
+                        <div className="relative bg-[#0a0a0a]/80 backdrop-blur-2xl p-6 md:p-12 rounded-[2rem] md:rounded-[2.5rem] border border-white/10 shadow-2xl">
                             {status === "success" ? (
                                 <motion.div
                                     initial={{ opacity: 0, scale: 0.9 }}

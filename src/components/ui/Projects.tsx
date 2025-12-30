@@ -178,7 +178,7 @@ export default function Projects() {
                                         </div>
                                     </div>
 
-                                    <div className="flex gap-6 pt-6 items-center">
+                                    <div className="hidden md:flex gap-6 pt-6 items-center">
                                         <motion.a
                                             href={project.link}
                                             whileHover={{ x: 3 }}

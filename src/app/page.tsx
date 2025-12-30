@@ -90,9 +90,9 @@ export default function Home() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="flex items-center gap-3 text-lg md:text-2xl font-mono mb-8 min-h-[32px]"
+              className="flex flex-wrap items-center gap-2 md:gap-3 text-lg md:text-2xl font-mono mb-8 min-h-[32px]"
             >
-              <span className="text-gray-400">I am a</span>
+              <span className="text-gray-400 whitespace-nowrap">I am a</span>
               <div className="text-cyan-400 font-bold drop-shadow-[0_0_15px_rgba(34,211,238,0.4)]">
                 <Typewriter
                   words={[
