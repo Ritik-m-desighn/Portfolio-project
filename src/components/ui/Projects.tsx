@@ -161,7 +161,7 @@ export default function Projects() {
                                 </div>
 
                                 {/* Content */}
-                                <div className="p-10 flex flex-col h-1/2 justify-between">
+                                <div className="p-6 md:p-10 flex flex-col h-1/2 justify-between">
                                     <div>
                                         <h3 className="text-3xl font-bold mb-3 text-white group-hover:text-cyan-400 transition-colors duration-300 line-clamp-1">
                                             {project.title}
@@ -178,7 +178,7 @@ export default function Projects() {
                                         </div>
                                     </div>
 
-                                    <div className="hidden md:flex gap-6 pt-6 items-center">
+                                    <div className="flex flex-wrap gap-4 md:gap-6 pt-6 items-center">
                                         <motion.a
                                             href={project.link}
                                             whileHover={{ x: 3 }}
