@@ -134,7 +134,7 @@ export default function Projects() {
                             <motion.div
                                 whileHover={{ y: -15, scale: 1.01 }}
                                 transition={{ type: "spring", stiffness: 400, damping: 25 }}
-                                className="relative w-[85vw] md:w-[480px] h-[65vh] bg-[#0a0a0a]/80 backdrop-blur-xl rounded-[2.5rem] border border-white/10 overflow-hidden flex flex-col shadow-[0_20px_50px_rgba(0,0,0,0.5)] cursor-pointer will-change-transform"
+                                className="relative w-[85vw] md:w-[480px] h-[75vh] md:h-[65vh] bg-[#0a0a0a]/80 backdrop-blur-xl rounded-[2.5rem] border border-white/10 overflow-hidden flex flex-col shadow-[0_20px_50px_rgba(0,0,0,0.5)] cursor-pointer will-change-transform"
                             >
                                 {/* Visual Preview */}
                                 <div className={`h-1/2 bg-gradient-to-br ${project.color} relative overflow-hidden`}>
