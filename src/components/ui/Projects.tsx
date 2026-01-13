@@ -12,58 +12,31 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
     {
-        title: "AI Trip Planner",
-        desc: "Smart travel itineraries generated via Gemini AI. Features budget tracking, route optimization, and real-time destination data.",
-        tech: ["MERN Stack", "Gemini API", "Google Maps", "Shadcn UI"],
+        title: "To-Do App",
+        desc: "Full-stack MERN To-Do app with persistent storage and CRUD operations.",
+        tech: ["MongoDB", "Express", "React",  "Node.js"],
         color: "from-cyan-500 to-blue-600",
-        link: "https://ai-world-routes.vercel.app/",
-        github: "https://github.com/sonukumarsaw12/Ai_World_Routes",
-        image: "https://lh3.googleusercontent.com/d/10ey-Mp6U9QHGrG-uQHOTaTaIzJrRld0D"
+        link: "https://mineworklist.netlify.app/",
+        github: "https://github.com/Ritik-m-desighn/Note_App.git",
+        image: "https://plus.unsplash.com/premium_vector-1734098710258-aa2c5929dcda?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-        title: "Fitness AI Coach",
-        desc: "Personalized workout plans and real-time progress tracking powered by Machine Learning. Includes voice-guided support.",
-        tech: ["Python", "ML", "Tkinter", "OpenCV"],
-        color: "from-purple-500 to-indigo-600",
-        link: "https://github.com/sonukumarsaw12/Fitness-AI-Coach",
-        github: "https://github.com/sonukumarsaw12/Fitness-AI-Coach",
-        image: "https://lh3.googleusercontent.com/d/1GLItbaNOY6hG9iwBUevwrGNAhwP05Mks"
+        title: "Shopify E-Commerce Application",
+        desc: "Full-stack MERN eCommerce app with authentication, cart, checkout, and admin roles.",
+        tech: ["HTML5", "CSS", "MongoDB", "Express", "React",  "Node.js"],
+        color: "from-red-500 to-pink-600",
+        link: "https://shoppiko77.vercel.app/",
+        github: "https://github.com/Ritik-m-desighn/E-commece.git",
+        image: "https://plus.unsplash.com/premium_vector-1727150463663-370be0577ca9?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-        title: "Skill_Swap Platform",
-        desc: "Skill Swap enables real-time skill exchange through scheduling, chat,and video meetings.",
-        tech: ["WebRTC", "Socket.io", "MERN", "MongoDB", "JWT"],
-        color: "from-emerald-500 to-teal-600",
-        link: "https://skill-swap-by-sonu.vercel.app/",
-        github: "https://github.com/sonukumarsaw12/Skill_Swap_By_Sonu/tree/main",
-        image: "https://lh3.googleusercontent.com/d/1U4v7DjjRKPgQ9I5ewRSzp7S18TXa9TUD"
-    },
-    {
-        title: "Movie OTT Platform",
-        desc: "Full-featured streaming experience with categories, search, and responsive player. Managed via custom MySQL database.",
+        title: "Movie OTT Platform[TBL]",
+        desc: "Full-featured streaming experience with categories, search, and responsive player. ",
         tech: ["HTML5", "CSS", "JS", "MySQL"],
         color: "from-red-500 to-pink-600",
-        link: "https://tangerine-souffle-7eae56.netlify.app/",
-        github: "https://github.com/sonukumarsaw12/Movie-OTT-Platform/tree/main",
-        image: "https://lh3.googleusercontent.com/d/1t4J5spsBFZDSB0brxEFAJEXuV8VDYhYJ"
-    },
-    {
-        title: "Glowify Ecommerce",
-        desc: "Glowify is a modern full-stack e-commerce platform built using the MERN stack, featuring a user-friendly shopping experience and a powerful admin dashboard.",
-        tech: ["MERN", "REACT-ROUTER", "JWT", "REDUX"],
-        color: "from-blue-500 to-cyan-400",
-        link: "https://shopping-full-stack-website.vercel.app/",
-        github: "https://github.com/sonukumarsaw12/Shopping_Full_Stack_website?tab=readme-ov-file#glowify---ecommerce-website-with-admin-panel",
-        image: "https://lh3.googleusercontent.com/d/11D366CzL2zqf0u3J8hpCi5O21mPdt7Gv"
-    },
-    {
-        title: "Sweet Shop UI",
-        desc: "A full-stack Sweet Shop Management System built using modern web technologies and following Test-Driven Development (TDD) principles.",
-        tech: ["MERN", "JWT", "REST API", "REACT-ROUTER", "JEST"],
-        color: "from-orange-400 to-yellow-600",
-        link: "https://sweet-shop-sk.vercel.app/",
-        github: "https://github.com/sonukumarsaw12/Sweet_Shop_Project",
-        image: "https://lh3.googleusercontent.com/d/1VW66ToDIef9gaY_xZ7_9EN8I_Nb7LEfW"
+        link: "/#",
+        github: "#",
+        image: "https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/40eba6cdf64ea43d49bd13e6173e3dae8adab88e"
     },
 ];
 

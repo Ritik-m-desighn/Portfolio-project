@@ -17,7 +17,7 @@ const roboto_mono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sonu Kumar Saw | Full Stack Developer",
+  title: "Ritik Srivastava | Full Stack Developer",
   description: "Immersive 3D Portfolio of Sonu Kumar Saw",
 };
 

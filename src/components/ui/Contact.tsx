@@ -16,9 +16,9 @@ export default function Contact() {
         setStatus("submitting");
 
         try {
-            const SERVICE_ID = "service_whvpewe";
-            const TEMPLATE_ID = "template_9joc65j";
-            const PUBLIC_KEY = "_LpaNxBKLZetqNzHi";
+            const SERVICE_ID = "service_ctyki3j";
+            const TEMPLATE_ID = "template_ns0pari";
+            const PUBLIC_KEY = "qy4mWvtJqVPdwJ3PX";
 
             const result = await emailjs.send(
                 SERVICE_ID,
@@ -79,15 +79,15 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <p className="text-xs text-gray-500 uppercase tracking-widest">Email Me</p>
-                                    <p className="text-white font-medium">skrajsonu6200@gmail.com</p>
+                                    <p className="text-white font-medium">srivastavritik034@gmail.com</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="flex gap-4">
                             {[
-                                { icon: Github, href: "https://github.com/sonukumarsaw12", color: "hover:text-white" },
-                                { icon: Linkedin, href: "https://www.linkedin.com/in/sonu-kumar-saw-24a426242/", color: "hover:text-blue-400" }
+                                { icon: Github, href: "https://github.com/Ritik-m-desighn", color: "hover:text-white" },
+                                { icon: Linkedin, href: "https://linkedin.com/in/ritik034", color: "hover:text-blue-400" }
                             ].map((social, i) => (
                                 <motion.a
                                     key={i}

@@ -36,7 +36,7 @@ export default function About() {
                         </div>
 
                         <p className="text-gray-400 mb-4 text-base md:text-lg leading-relaxed font-light">
-                            I am a <span className="text-cyan-400 font-medium">Bachelor of Engineering</span> student at <span className="text-white font-medium">Chandigarh University</span> with a strong interest in <span className="text-white">Full Stack Web Development</span> and problem solving.
+                            I am a <span className="text-cyan-400 font-medium">Bachelor of Computer Applications</span> student at <span className="text-white font-medium">RAMLAU</span> with a strong interest in <span className="text-white">Full Stack Web Development</span> and problem solving.
                         </p>
                         <p className="text-gray-400 mb-4 text-base md:text-lg leading-relaxed font-light">
                             I have hands-on experience building real-world web applications using <span className="text-white">React, Next.js, Node.js, Express, MongoDB, and SQL</span>. I enjoy working across the full development lifecycle — from designing clean user interfaces to implementing efficient backend logic and APIs.
@@ -50,7 +50,7 @@ export default function About() {
 
                         {/* Tech Stack Pills */}
                         <div className="flex flex-wrap gap-3">
-                            {["C++", "DSA", "Java", "Python", "React.js", "Node.js", "MongoDB", "SQL", "AWS", "Git", "EXCEL", "POWER-BI"].map((tech, i) => (
+                            {["C++", "DSA","Next.js", "React.js", "Node.js", "MongoDB", "SQL", "Git"].map((tech, i) => (
                                 <motion.span
                                     key={tech}
                                     initial={{ opacity: 0, y: 10 }}
@@ -84,15 +84,14 @@ export default function About() {
                                     <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
                                     <div className="w-3 h-3 rounded-full bg-green-500/80" />
                                 </div>
-                                <div className="text-xs font-mono text-gray-500">profile.tsx</div>
+                                <div className="text-xs font-mono text-gray-500">cmd</div>
                             </div>
 
                             {/* Code Content */}
                             <div className="font-mono text-sm leading-8">
-                                <div className="text-purple-400">const <span className="text-blue-400">Sonu</span> = <span className="text-yellow-400">{"{"}</span></div>
-                                <div className="pl-6 text-gray-300">education: <span className="text-green-400">&quot;Chandigarh University&quot;</span>,</div>
-                                <div className="pl-6 text-gray-300">experience: <span className="text-green-400">&quot;HighRadius Intern&quot;</span>,</div>
-                                <div className="pl-6 text-gray-300">skills: <span className="text-yellow-400">[&quot;C++&quot;, &quot;DSA&quot;, &quot;Full Stack Web Development&quot;]</span>,</div>
+                                <div className="text-purple-400">const <span className="text-blue-400">Ritik</span> = <span className="text-yellow-400">{"{"}</span></div>
+                                <div className="pl-6 text-gray-300">education: <span className="text-green-400">&quot;MSITM&quot;</span>,</div>
+                                <div className="pl-6 text-gray-300">skills: <span className="text-yellow-400">[ &quot;DSA&quot;, &quot;Full Stack Web Development&quot;]</span>,</div>
                                 <div className="pl-6 text-gray-300">status: <span className="text-green-400">&quot;Open to Work&quot;</span>,</div>
                                 <div className="pl-6 text-gray-300">loves: <span className="text-cyan-400">()</span> <span className="text-purple-400">=&gt;</span> <span className="text-yellow-400">&quot;Innovation&quot;</span></div>
                                 <div className="text-yellow-400">{"}"}</div>

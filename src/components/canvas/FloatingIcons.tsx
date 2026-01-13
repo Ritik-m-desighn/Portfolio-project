@@ -11,7 +11,7 @@ const skills = [
     { name: "Node.js", color: "#339933", position: [-1.8, -1.8, 1.2] },
     { name: "MongoDB", color: "#47A248", position: [1.8, -1.6, 1.5] },
     { name: "C++", color: "#00599C", position: [0.2, 2.8, -0.5] },
-    { name: "Python", color: "#3776AB", position: [-2.8, 0.2, 1.8] },
+    { name: "Three.js", color: "#3776AB", position: [-2.8, 0.2, 1.8] },
     { name: "JavaScript", color: "#F7DF1E", position: [3, -0.2, 1.2] },
     { name: "Express.js", color: "#ffffff", position: [-0.2, -2.8, -0.8] },
     { name: "Tailwind", color: "#06B6D4", position: [-4, 0.8, -1.5] },

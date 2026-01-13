@@ -79,10 +79,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight"
             >
-              Sonu Kumar{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400">
-                Saw
-              </span>
+              Ritik Srivastava{" "}
             </motion.h1>
 
             {/* Typewriter Role */}
@@ -99,7 +96,6 @@ export default function Home() {
                     "Software Developer",
                     "Web Developer",
                     "Full Stack Developer",
-                    "Data Analyst",
                     "Problem Solver"
                   ]}
                   cursorClassName="bg-cyan-400 w-[3px]"
@@ -137,7 +133,7 @@ export default function Home() {
 
               {/* Secondary Button */}
               <a
-                href="https://drive.google.com/file/d/1SqGFb1uuDfIbZ5ijYUHDTNiqrTqOlWRc/view?usp=sharing"
+                href="https://drive.google.com/file/d/1lR2r7QAb8DilRV3qHz6jZiitHuZeJGCI/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 md:px-8 py-3 md:py-4 bg-transparent border border-white/20 rounded-xl text-white font-medium text-base md:text-lg hover:bg-white/5 hover:border-white/40 transition-all duration-300 hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-2 group"
@@ -153,22 +149,13 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="flex gap-6 mt-12 pl-1"
             >
-              <a href="https://github.com/sonukumarsaw12" target="_blank" rel="noopener noreferrer" className="group">
+              <a href="https://github.com/Ritik-m-desighn" target="_blank" rel="noopener noreferrer" className="group">
                 <Github className="text-gray-500 w-6 h-6 group-hover:text-white group-hover:scale-110 transition-all cursor-pointer group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]" />
               </a>
-              <a href="https://www.linkedin.com/in/sonu-kumar-saw-24a426242/" target="_blank" rel="noopener noreferrer" className="group">
+              <a href="https://linkedin.com/in/ritik034/" target="_blank" rel="noopener noreferrer" className="group">
                 <Linkedin className="text-gray-500 w-6 h-6 group-hover:text-cyan-400 group-hover:scale-110 transition-all cursor-pointer group-hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]" />
               </a>
-              <a href="https://leetcode.com/u/sonukumarsaw12/" target="_blank" rel="noopener noreferrer" className="group">
-                <svg
-                  viewBox="0 0 24 24"
-                  className="w-6 h-6 fill-gray-500 group-hover:fill-[#FFA116] transition-all group-hover:scale-110"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414 0-1.953-.54-.539-1.413-.539-1.953 0l-2.396 2.392c-1.144 1.144-3.03 1.157-4.186.04L7.135 17.5l-4.24-4.157c-.127-.126-.23-.272-.303-.432-.073-.16-.113-.332-.119-.506l-.014-.4a4.137 4.137 0 0 1 .491-1.968 4.093 4.093 0 0 1 1.076-1.39l3.854-4.126 4.377-4.517c.18-.186.425-.289.682-.289s.502.103.682.289l8.061 8.062c.54.54 0 1.414 0 1.953s-1.414.54-1.953 0L13.483 0zM22.186 15.422c-.11-.563-.566-1.011-1.143-1.011h-6.14a1.34 1.34 0 0 0-1.34 1.34c0 .739.601 1.34 1.34 1.34h6.14c.577 0 1.033-.448 1.143-1.011z" />
-                </svg>
-              </a>
-              <a href="mailto:skrajsonu6200@gmail.com" className="group">
+              <a href="mailto:srivastavritik034@gmail.com" className="group">
                 <Mail className="text-gray-500 w-6 h-6 group-hover:text-red-500 group-hover:scale-110 transition-all cursor-pointer group-hover:drop-shadow-[0_0_8px_rgba(239,68,68,0.5)]" />
               </a>
             </motion.div>

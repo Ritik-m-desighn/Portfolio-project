@@ -10,22 +10,22 @@ const skillCategories = [
     {
         title: "Languages",
         icon: <Terminal className="text-cyan-400" size={20} />,
-        skills: ["C++", "Data Structure & Algorithm", "Java", "Python", "JavaScript"]
+        skills: ["C++",  "JavaScript","Python","TypeScript"]
     },
     {
         title: "Web Technologies",
         icon: <Layout className="text-blue-400" size={20} />,
-        skills: ["React.js", "Next.js", "Tailwind CSS", "MongoDB", "Node.js", "Express.js", "Socket.io", "WebRTC", "JWT"]
+        skills: ["React.js", "Next.js", "Next.js", "Tailwind CSS", "MongoDB", "Node.js", "Express.js", "JWT"]
     },
     {
         title: "Others",
         icon: <Server className="text-purple-400" size={20} />,
-        skills: ["OOPS", "Computer Networks", "DBMS", "Operating System", "Excel", "PowerBI"]
+        skills: ["OOPS", "Computer Networks", "DBMS", "Operating System","DSA"]
     },
     {
         title: "Database, Cloud & Deployment",
         icon: <Database className="text-emerald-400" size={20} />,
-        skills: ["MongoDB", "SQL", "Vercel", "Git & GitHub", "Render"]
+        skills: ["MongoDB", "SQL", "Vercel", "Git & GitHub", "Render","Netlify"]
     }
 ];
 

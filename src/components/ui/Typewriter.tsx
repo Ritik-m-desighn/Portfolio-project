@@ -29,11 +29,12 @@ export default function Typewriter({
             const i = loopNum % words.length;
             const fullText = words[i];
 
-            setDisplayedText(
-                isDeleting
-                    ? fullText.substring(0, displayedText.length - 1)
-                    : fullText.substring(0, displayedText.length + 1)
-            );
+            setDisplayedText((prev) =>
+    isDeleting
+        ? fullText.substring(0, prev.length - 1)
+        : fullText.substring(0, prev.length + 1)
+);
+
 
             setTypingDelay(isDeleting ? deletingSpeed : typingSpeed);
 
