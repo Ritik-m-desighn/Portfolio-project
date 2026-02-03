@@ -133,7 +133,7 @@ export default function Home() {
 
               {/* Secondary Button */}
               <a
-                href="https://drive.google.com/file/d/1lR2r7QAb8DilRV3qHz6jZiitHuZeJGCI/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1fCi3kGXq64fG92rbM-hRwjTOX4tnfXhQ/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 md:px-8 py-3 md:py-4 bg-transparent border border-white/20 rounded-xl text-white font-medium text-base md:text-lg hover:bg-white/5 hover:border-white/40 transition-all duration-300 hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-2 group"
