@@ -26,7 +26,7 @@ const projects = [
         tech: ["HTML5", "CSS", "MongoDB", "Express", "React",  "Node.js"],
         color: "from-red-500 to-pink-600",
         link: "https://shopikkko77.vercel.app/",
-        github: "https://github.com/Ritik-m-desighn/E-commece.git",
+        github: "https://github.com/Ritik-m-desighn/shoppiko.git",
         image: "https://plus.unsplash.com/premium_vector-1727150463663-370be0577ca9?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
